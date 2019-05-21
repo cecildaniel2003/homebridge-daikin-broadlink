@@ -1,0 +1,31 @@
+{
+  "name": "homebridge-DaikinBroadlink",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jussi Edlund",
+  "license": "MIT",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "devDependencies": {
+    "eslint": "^4.19.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0"
+  },
+  "dependencies": {
+    "binstruct": "^0.3.1",
+    "noble": "^1.9.1",
+    "broadlinkjs-rm": ">=0.1",
+    "mqtt": ">=0.1"
+
+  },
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0",
+    "broadlinkjs-rm": ">=0.1"
+  }
+}
