@@ -1,1 +1,1 @@
-# homebridge-daikin-broadlink
+# homebridge-daikin-broadlink-ARC470A22
